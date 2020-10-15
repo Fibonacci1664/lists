@@ -92,7 +92,7 @@ public:
 		else
 		{
 			// There is at least 1 node.
-			CustomListNode<T>* temp = new CustomListNode<T>;		// rtns a pointer.
+			CustomListNode<T>* temp;		// rtns a pointer.
 
 			temp = _head;			// Save the node that head points to, namely the first node.
 			_head = newNode;		// Point the head at the new node to be inserted.
